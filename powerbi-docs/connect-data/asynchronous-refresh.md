@@ -84,7 +84,7 @@ Only one refresh operation at a time is accepted for a dataset. If there's a cur
 
 ### Parameters
 
-Specifying parameters is not required. If not specified, the default is applied.
+Specifying parameters is not required. If not specified, the default is applied. Please note that asynchronous refresh would be triggered only if any request payload except notifyOption is set.
 
 |Name  |Type  |Default  |Description  |
 |---------|---------|---------|---------|
